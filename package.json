@@ -1,0 +1,28 @@
+{
+    "name": "blog-api",
+    "version": "1.0.0",
+    "description": "blog rest api",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Backslashgh",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "@babel/register": "^7.6.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-watch": "^7.0.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.1.0",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "express-validator": "^5.3.1",
+        "mongoose": "^5.7.1",
+        "nodemon": "^1.19.2",
+        "passport": "^0.4.0"
+    }
+}
